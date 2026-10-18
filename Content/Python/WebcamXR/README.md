@@ -103,7 +103,7 @@ You can change these values during Play as well.
 | Head Position Sensitivity X/Y/Z | 200 | How far the camera moves with your head |
 | Desktop Field Of View | 120 | Camera FOV without a headset (0 = keep the camera's own value) |
 | Desktop Panini Strength | 0 | 0–1. Reduces edge stretching at wide FOVs (r.Upscale.Panini.D) |
-| Desktop Eye Height | 0 | 0 = spawn height. Any other value sets a fixed eye height (cm) |
+| Desktop Eye Height | 0 | 0 = spawn height above the floor (160 cm if you spawn on the floor, e.g. the template's PlayerStart). Any other value sets a fixed eye height (cm) |
 | Desktop Max FPS | 60 | Unreal frame cap without a headset (0 = no cap). Leaves CPU for the tracker |
 | Show Status Text | on | On-screen hints (connection, calibration, lost hands) |
 | Show Hand Debug | off | Prints hand direction and gesture data |
