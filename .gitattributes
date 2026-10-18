@@ -1,0 +1,5 @@
+﻿# Stored as plain git objects (no LFS) so GitHub's "Download ZIP" includes them.
+*.uasset binary
+*.umap binary
+*.task binary
+*.bat text eol=crlf

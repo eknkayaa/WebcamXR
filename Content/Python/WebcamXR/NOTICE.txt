@@ -1,0 +1,34 @@
+WebcamXR - Third-party notices
+==============================
+
+Redistributed with this product
+-------------------------------
+
+models/hand_landmarker.task
+models/face_landmarker.task
+    MediaPipe models by Google LLC.
+    Licensed under the Apache License, Version 2.0 (see LICENSE-Apache-2.0.txt).
+    https://ai.google.dev/edge/mediapipe
+    The files are distributed unmodified.
+
+Installed by Start_WebcamTracker.bat from PyPI (not redistributed)
+-----------------------------------------------------------------
+
+requirements.txt lists the packages that pip downloads on the user's
+computer. Their main licenses:
+
+    mediapipe       Apache-2.0   (Google LLC)
+    opencv-contrib-python  Apache-2.0  (installed by mediapipe)
+    numpy           BSD-3-Clause and others
+    python-osc      Public domain (Unlicense)
+
+pip also installs their dependencies; each package ships its own license
+file in %LOCALAPPDATA%\WebcamXR\venv\Lib\site-packages\<package>.dist-info.
+
+MediaPipe usage metrics
+-----------------------
+
+All image processing runs locally; camera images are not sent anywhere.
+According to the MediaPipe Tasks Privacy Notice (shipped in the mediapipe
+package), MediaPipe Tasks sends performance and usage metrics of the APIs
+to Google: https://policies.google.com/privacy
