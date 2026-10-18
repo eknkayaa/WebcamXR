@@ -1,0 +1,60 @@
+name: Bug report
+description: Something does not work as described in the README
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start Start_WebcamTracker.bat
+        2. Open L_WebcamXRDemo and press Play
+        3. ...
+  - type: input
+    id: ue
+    attributes:
+      label: Unreal Engine version
+      placeholder: "5.8.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Installed from
+      options:
+        - Fab
+        - GitHub
+    validations:
+      required: true
+  - type: input
+    id: webcam
+    attributes:
+      label: Webcam model and resolution
+      placeholder: "Logitech C920, 1280x720"
+  - type: input
+    id: fps
+    attributes:
+      label: Tracker FPS
+      description: Shown in the tracker's preview window.
+      placeholder: "28"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The OSC plugin is enabled.
+        - label: The level contains a BP_WebcamOSCReceiver.
+        - label: The tracker preview window shows my hands.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Tracker console output and/or Unreal Output Log lines (LogBlueprintUserMessages, LogOSC).
+      render: text
