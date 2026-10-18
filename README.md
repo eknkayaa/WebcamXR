@@ -1,4 +1,4 @@
-﻿# WebcamXR – Test VR Projects With a Webcam
+# WebcamXR – Test VR Projects With a Webcam
 
 WebcamXR lets you play and test a VR Template project **without a headset**.
 A small Python tracker reads your webcam (head and both hands, with Google
